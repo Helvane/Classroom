@@ -1,0 +1,18 @@
+<html>
+<body>
+	<h2>Hello Everyone!</h2>
+	<p>This is my home page</p>
+	<p th:text="${x.name}"></p>
+	<p th:text="${x.street}"></p>
+	
+	<p th:if="${x.zipCode}=='01853'">Hello
+		<div th:text="${x.name2}"></div>
+		<div th:text="${x.street2}"></div>
+		<div th:text="${x.abbreviation}"></div>
+		<div th:text="${x.zipCode}"></div>
+	</p>
+	
+	
+</body>
+
+</html>
